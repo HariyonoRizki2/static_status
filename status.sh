@@ -16,16 +16,16 @@
 #      You can also pass a configuration file with the variable MY_STATUS_CONFIG.
 
 # Title for the status page
-MY_STATUS_TITLE="Status Page"
+MY_STATUS_TITLE="KIBOTZ WEB STATUS"
 
 # Link for the homepage button
-MY_HOMEPAGE_URL="https://github.com/Cyclenerd/static_status"
+MY_HOMEPAGE_URL="https://kibotzdev.skom.id"
 
 # Text for the homepage button
-MY_HOMEPAGE_TITLE="Homepage"
+MY_HOMEPAGE_TITLE="Beranda"
 
 # Auto refresh interval in seconds 0 is no refresh
-MY_AUTOREFRESH="0"
+MY_AUTOREFRESH="5"
 
 # Shortcut to place the configuration file in a folder.
 # Save it without / at the end.
@@ -82,7 +82,7 @@ MY_STATUS_STYLESHEET="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4
 MY_STATUS_FONTAWESOME="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
 
 # A footer
-MY_STATUS_FOOTER='Powered by <a href="https://github.com/Cyclenerd/static_status">static_status</a>'
+MY_STATUS_FOOTER='Powered by <a href="https://instagram.com/hariyonorizki_">Hariyono Rizki</a>'
 
 # Lock file to prevent duplicate execution.
 # If this file exists, status.sh script is terminated.
@@ -92,9 +92,9 @@ MY_STATUS_LOCKFILE="/tmp/STATUS_SH_IS_RUNNING.lock"
 # Date format for the web page.
 # UTC (`-u`) is the default.
 # Example: 2021-12-23 12:34:55 UTC
-MY_DATE_TIME=$(date -u "+%Y-%m-%d %H:%M:%S %Z")
+MY_DATE_TIME=$(date "+%Y-%m-%d %H:%M:%S %Z")
 # Can be changed. Example with system time:
-# MY_DATE_TIME=$(date "+%Y-%m-%d %H:%M:%S")
+# MY_DATE_TIME=$(date -u "+%Y-%m-%d %H:%M:%S")
 # Avoid semicolons.
 # More details can be found in `man date`.
 
